@@ -1,0 +1,118 @@
+body {
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section {
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+div {
+    text-align: center;
+    padding: 9px;
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.cal {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff8a;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.calendar {
+    font-family: Arial, sans-serif;
+    width: 415px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #ffffff71;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+    color: #000;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 295px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #0000006c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000006c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #0000006c;
+    color: #000;
+}
+
+#month-year {
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#calendar-body td {
+    cursor: pointer;
+}
+
+#calendar-body td:hover {
+    background-color: #f2f2f2;
+}
+
+.current-day {
+    background-color: #0000006c;
+    color: #fff;
+}
