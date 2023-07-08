@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -28,9 +29,7 @@ footer {
     text-align: center;
     font-style: italic;
     font-weight: bold;
-    padding: 10px;
     margin-top: auto;
-    width: 100%;
 }
 
 .cal {
@@ -119,7 +118,6 @@ th {
 }
 
 @media only screen and (max-width: 600px) {
-
     section {
         width: 90%;
     }
@@ -130,7 +128,6 @@ th {
 }
 
 @media only screen and (max-width: 400px) {
-
     section {
         width: 100%;
     }
